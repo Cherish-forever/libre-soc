@@ -1,0 +1,219 @@
+
+manifest:
+  remotes:
+    - name: origin
+      url-base: https://git.libre-soc.org
+
+  defaults:
+    remote: origin
+    revision: master
+
+  projects:
+    - name: SymbiYosys
+      repo-path: git/SymbiYosys.git
+
+    - name: benchmarks
+      repo-path: git/benchmarks.git
+
+    - name: bigint-presentation-code
+      repo-path: git/bigint-presentation-code.git
+
+    - name: binutils-gdb
+      repo-path: git/binutils-gdb.git
+      path: toolchain/gdb
+
+    - name: buildroot
+      repo-path: git/buildroot.git
+      revision: microwatt
+
+    - name: c4m-jtag
+      repo-path: git/c4m-jtag.git
+
+    - name: cached-property
+      repo-path: git/cached-property.git
+
+    - name: cavatools
+      repo-path: git/cavatools.git
+
+    - name: crowdsupply
+      repo-path: git/crowdsupply.git
+
+    - name: cvc5
+      repo-path: git/cvc5.git
+      revision: main
+
+    - name: dev-env-setup
+      repo-path: git/dev-env-setup.git
+
+    - name: ecpprog
+      repo-path: git/ecpprog.git
+
+    - name: fosdem-stand
+      repo-path: git/fosdem-stand.git
+
+    - name: freedom-sifive
+      repo-path: git/freedom-sifive.git
+
+    - name: gcc
+      repo-path: git/gcc.git
+      path: toolchain/gcc
+
+    - name: gem5
+      repo-path: git/gem5.git
+      path: toolchain/gem5
+      revision: develop-power
+
+    - name: glibc
+      repo-path: git/glibc.git
+      path: toolchain/glibc
+
+    - name: gram
+      repo-path: git/gram.git
+      path: toolchain/gram
+
+    - name: ieee754fpu
+      repo-path: git/ieee754fpu.git
+
+    - name: kazan
+      repo-path: git/kazan.git
+
+    - name: kvm-minippc
+      repo-path: git/kvm-minippc.git
+
+    - name: lambdasoc
+      repo-path: git/lambdasoc.git
+
+    - name: libre-riscv-dev
+      repo-path: git/libre-riscv-dev.git
+
+    - name: libreriscv
+      repo-path: git/libreriscv.git
+
+    - name: libresoc-isa-manual
+      repo-path: git/libresoc-isa-manual.git
+
+    - name: libresoc-litex
+      repo-path: git/libresoc-litex.git
+
+    - name: litex
+      repo-path: git/litex.git
+
+    - name: ls2
+      repo-path: git/ls2.git
+
+    - name: mdis
+      repo-path: git/mdis.git
+
+    - name: mesa
+      repo-path: git/mesa.git
+
+    - name: microwatt
+      repo-path: git/microwatt.git
+
+    - name: multitaskhttpd
+      repo-path: git/multitaskhttpd.git
+
+    - name: nmigen-boards
+      repo-path: git/nmigen-boards.git
+      path: nmigen/boards
+
+    - name: nmigen-examples
+      repo-path: git/nmigen-examples.git
+      path: nmigen/examples
+
+    - name: nmigen-gf
+      repo-path: git/nmigen-gf.git
+      path: nmigen/gf
+
+    - name: nmigen-soc
+      repo-path: git/nmigen-soc.git
+      path: nmigen/soc
+
+    - name: nmigen-type-annotations
+      repo-path: git/nmigen-type-annotations.git
+      path: nmigen/type-annotations
+
+    - name: nmigen
+      repo-path: git/nmigen.git
+      path: nmigen/core
+
+    - name: nmutil
+      repo-path: git/nmutil.git
+
+    - name: openpower-isa
+      repo-path: git/openpower-isa.git
+
+    - name: pinmux
+      repo-path: git/pinmux.git
+
+    - name: power-instruction-analyzer
+      repo-path: git/power-instruction-analyzer.git
+
+    - name: pyelftools
+      repo-path: git/pyelftools.git
+
+    - name: pytest-output-to-files
+      repo-path: git/pytest-output-to-files.git
+
+    - name: pythondata-cpu-libresoc
+      repo-path: git/pythondata-cpu-libresoc.git
+
+    - name: riscv-isa-sim
+      repo-path: git/riscv-isa-sim.git
+
+    - name: riscv-tests
+      repo-path: git/riscv-tests.git
+
+    - name: rv32
+      repo-path: git/rv32.git
+
+    - name: sfpy
+      repo-path: git/sfpy.git
+
+    - name: shakti-core
+      repo-path: git/shakti-core.git
+
+    - name: shakti-iclass
+      repo-path: git/shakti-iclass.git
+
+    - name: shakti-peripherals
+      repo-path: git/shakti-peripherals.git
+
+    - name: sifive-blocks
+      repo-path: git/sifive-blocks.git
+
+    - name: simplev-cpp
+      repo-path: git/simplev-cpp.git
+
+    - name: soc-cocotb-sim
+      repo-path: git/soc-cocotb-sim.git
+
+    - name: soc-cxxrtl-sim
+      repo-path: git/soc-cxxrtl-sim.git
+
+    - name: soc
+      repo-path: git/soc.git
+
+    - name: soclayout
+      repo-path: git/soclayout.git
+
+    - name: stands-website
+      repo-path: git/stands-website.git
+
+    - name: sv2nmigen
+      repo-path: git/sv2nmigen.git
+
+    - name: tas-yagle
+      repo-path: git/tas-yagle.git
+
+    - name: utils
+      repo-path: git/utils.git
+
+    - name: vector-math
+      repo-path: git/vector-math.git
+
+    - name: yosys
+      repo-path: git/yosys.git
+
+  self:
+    path: scripts
